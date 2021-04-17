@@ -1,0 +1,52 @@
+.topNavbar{
+    background-color: #A4D8E3;
+}
+
+.topNavbarText{
+    color:black;
+    /* font-size: 10px; */
+}
+
+.mainNavBar{
+    background-color:#FF914D;
+    height:90px;
+}
+
+.navbar-brand{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:0.5 rem;
+}
+
+i.fa-coffee{
+ position: relative;
+ left: 122px;
+ color:white;
+}
+
+.logo{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.mainNavBar ul.navbar-nav>li.nav-item>a.left {
+    padding-right: 116px;
+}
+
+.mainNavBar ul.navbar-nav>li.nav-item>a.right {
+    padding-left: 36px;
+}
+
+.mainNavBar ul.navbar-nav>li.nav-item>a.nav-link{
+    color: black;
+    font-weight: 550 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abc{
+    margin: 0px;
+    padding: 0px;
+}
