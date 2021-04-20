@@ -46,7 +46,26 @@ i.fa-coffee{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.abc{
+.fillspace{
     margin: 0px;
     padding: 0px;
+
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container-fluid{
+    position: relative;
+    text-align: center;
+  }
+
+  .site-footer{
+    background-color: black;   
+    color: white;
+    height: 250px;
+  }
