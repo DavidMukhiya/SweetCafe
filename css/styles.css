@@ -1,55 +1,9 @@
-.topNavbar{
-    background-color: #A4D8E3;
-}
+/* .navbar-brand img.img-fluid{
+    max-width: 250px;
+} */
 
-.topNavbarText{
-    color:black;
-    /* font-size: 10px; */
-}
-
-.mainNavBar{
-    background-color:#FF914D;
-    height:90px;
-    z-index: 1000;
-}
-
-.navbar-brand{
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top:0.5 rem;
-}
-
-i.fa-coffee{
- position: relative;
- left: 122px;
- color:white;
-}
-
-.logo{
-    color: white;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: bold;
-    padding-right: 5px;
-}
-
-.mainNavBar ul.navbar-nav>li.nav-item>a.left {
-    padding-right: 116px;
-}
-
-.mainNavBar ul.navbar-nav>li.nav-item>a.right {
-    padding-left: 36px;
-}
-
-.mainNavBar ul.navbar-nav>li.nav-item>a.nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: black;
-    font-weight: 550 ;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container-fluid{
-    margin: 0px;
-    padding: 0px;
-
 }
 
 .centered {
@@ -59,18 +13,133 @@ i.fa-coffee{
     transform: translate(-50%, -50%);
   }
 
-  .container-fluid{
-    position: relative;
+  nav.mainNav ul.navbar-nav>li.nav-item>a.nav-link {
+      text-transform: uppercase;
+  }
+
+  .mainNav ul.navbar-nav>li.nav-item>a.left {
+    padding-right: 168px;
+}
+
+.mainNav ul.navbar-nav>li.nav-item>a.right {
+    padding-left: 74px;
+}
+.navbar-brand img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     text-align: center;
-  }
+    max-width: 250px;
+}
+/* displaying shorttext for la */
+@media(max-width:563px){
+    .short-text { display: inline-block; }
+    .full-text { display: none; } 
+}
+/* displaying fulltext for la */
+@media(min-width:564px){
+    .short-text { display: none; }
+    .full-text { display: inline-block; } 
+}
+/* not displaying top social media icon */
+@media(max-width:563px){
+    .top-social-media{display: none;}
+}
+/* mananging toggle padding in small screen for left*/
+@media(max-width:1017px){
+    .mainNav ul.navbar-nav>li.nav-item>a.left {
+        padding-right: 0px;
+    }   
+}
+/* mananging toggle padding in small screen for right menu*/
+@media(max-width:1017px){
+    .mainNav ul.navbar-nav>li.nav-item>a.right {
+        padding-left: 0px;
+    }   
+}
+/* moving logo to left */
+@media(max-width:992px){
+    .navbar-brand img {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        max-width: 250px;
+    }  
+}
 
-  .site-footer{
-    background-color: black;   
-    color: white;
-    height: 250px;
-  }
+/* @media(max-width:1017px){
+    .mainNav ul.navbar-nav>li.nav-item>a.left {
+        padding-right: 110px;
+    }
+    
+    .mainNav ul.navbar-nav>li.nav-item>a.right {
+        padding-left: 50px;
+    }
+} */
+@media(min-width:200px) and (max-width:500px){
+    .navbar-brand img.img-fluid{
+        width: 100%;
+        height: auto;
+    }
+}
 
-  .container-fluid>img{
-      height: auto;
-      width: 100%;
-  }
+/* for bigger screen */
+@media(min-width:1233px){
+    .mainNav ul.navbar-nav>li.nav-item>a.left {
+        padding-right: 202px;
+    }
+    
+    .mainNav ul.navbar-nav>li.nav-item>a.right {
+        padding-left: 93px;
+    }
+}
+
+@media(min-width:1632px){
+    .mainNav ul.navbar-nav>li.nav-item>a.left {
+        padding-right: 254px;
+    }
+    
+    .mainNav ul.navbar-nav>li.nav-item>a.right {
+        padding-left: 127px;
+    }
+}
+
+@media(min-width:1823px){
+    .mainNav ul.navbar-nav>li.nav-item>a.left {
+        padding-right: 339px;
+    }
+    
+    .mainNav ul.navbar-nav>li.nav-item>a.right {
+        padding-left: 161px;
+    }
+}
+
+.container-fluid img{
+    width: 100%;
+    height:700px;
+    object-fit: cover;
+}
+
+div.orderonlinebtn{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding:80px;
+}
