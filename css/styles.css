@@ -83,12 +83,15 @@
         padding-left: 50px;
     }
 } */
+
+
 @media(min-width:200px) and (max-width:500px){
     .navbar-brand img.img-fluid{
         width: 100%;
         height: auto;
     }
 }
+
 
 /* for bigger screen */
 @media(min-width:1233px){
@@ -142,4 +145,29 @@ footer{
     width: 100%;
     background-color: black;
     padding:80px;
+}
+div.footericon>a>i.fa{
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+div.footericon>a>i.fa:hover{
+    color:#817d7d;
+}
+
+.connect{
+    font-size: 18px;
+    color:white;
+}
+
+.copyright{
+    font-size: 18px;
+    color:white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 31px;
 }
