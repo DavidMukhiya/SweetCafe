@@ -10,6 +10,7 @@
 .mainNavBar{
     background-color:#FF914D;
     height:90px;
+    z-index: 1000;
 }
 
 .navbar-brand{
@@ -45,8 +46,7 @@ i.fa-coffee{
     font-weight: 550 ;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.fillspace{
+.container-fluid{
     margin: 0px;
     padding: 0px;
 
@@ -68,4 +68,9 @@ i.fa-coffee{
     background-color: black;   
     color: white;
     height: 250px;
+  }
+
+  .container-fluid>img{
+      height: auto;
+      width: 100%;
   }
