@@ -131,7 +131,7 @@ nav.navbar ul.navbar-nav>li.navi-item>a.nav-link .fa{
     }
 }
 
-.container-fluid img{
+.container-fluid img.homescreen{
     width: 100%;
     height:700px;
     object-fit: cover;
@@ -200,7 +200,12 @@ footer {
 
   @media (max-width:559px){
     .nav-tabs>li.nav-item>a.nav-link{
-   padding-left: 0px;
+   padding-left: 12px;
    padding-right:12px;
     }
   }
+
+  .menu img{
+    height:400px;
+    object-fit: cover;
+}
