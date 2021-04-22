@@ -179,3 +179,28 @@ footer {
     background-color: black;
     padding: 31px;
 }
+
+
+/* orderpage */
+.nav-tabs>li.nav-item>a.nav-link{
+    padding-right: 10px;
+}
+
+.nav.nav-tabs{
+    background-color: #ffffff;
+} 
+.nav-tabs > li.active > a {
+    color: #0d7eee;
+    font-size: 16px;
+  }
+  .nav-tabs > li > a {
+    color: #141212;
+    text-transform: capitalize;
+  }
+
+  @media (max-width:559px){
+    .nav-tabs>li.nav-item>a.nav-link{
+   padding-left: 0px;
+   padding-right:12px;
+    }
+  }
