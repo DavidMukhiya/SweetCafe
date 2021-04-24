@@ -307,7 +307,7 @@ div.addcartbtn{
 .contentmenu{
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 70%; /* Full width */
+    width: 70%; /* Not Full width */
     padding-top: 20px;
     padding-bottom:20px; /* Some padding */
     padding-left: 20px;
@@ -350,7 +350,29 @@ div.addcartbtn{
 }
 
 .contentmenu p > small{
-    font-size: 18px;
+    font-size: 23px;
     padding-left: 5%;
     color:rgb(206, 219, 20); 
+}
+
+
+@media(max-width:569px){
+    .desc{
+        display: none;
+    }
+    .contentmenu h1{
+        font-size: 40px;
+    }
+    .contentmenu h2{
+        font-size: 30px;  
+    }
+
+    .contentmenu p{
+        font-size: 27px;
+    }
+
+    .cost{
+        font-size: 27px;
+    }
+    
 }
