@@ -376,3 +376,42 @@ div.addcartbtn{
     }
     
 }
+
+.form-container{
+    position: absolute;
+    top: 140px;
+    left: -79px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    width: 450px;
+}
+
+.bg{
+    background: url("/img/Reservation/reservation2.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: 100%;
+}
+
+@media (max-width:767px){
+    .form-container{
+        left:-41px;
+}}
+
+@media (max-width:582px){
+    .form-container{
+        left:-85px;
+}}
+
+@media (max-width:575px){
+    .form-container{
+        left:55px;}
+}
+
+@media (max-width:500px){
+    .form-container{
+        left:75px;
+        width: 300px;}
+}
