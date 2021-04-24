@@ -279,3 +279,9 @@ div.addcartbtn{
 .addcartbtn div.card-body{
     margin-bottom: 10px;
 }
+
+#menuCarousel img{
+    object-fit: cover;
+    width: 100%;
+    height:700px;
+}
