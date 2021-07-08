@@ -415,3 +415,52 @@ div.addcartbtn{
         left:75px;
         width: 300px;}
 }
+
+img.mediapicture{
+    width:700px;
+    object-fit: cover;
+    height: 600px;
+    border: blue;
+}
+
+.mediabg{
+    background-color: rgb(204, 205, 221);
+    font-family: 'Pacifico', cursive;
+    border-radius: 2%;
+}
+
+.mediabg h1{
+    font-family: 'Rochester', cursive; 
+    color: rgb(190, 189, 188);
+    background-color: #ea6440e6;
+    font-weight: 600;
+    
+}
+
+.mediabg p{
+    color: rgb(15, 79, 199);
+    text-align: justify;
+    font-size: 18px;
+}
+
+.mediapicture{
+    padding-top: 50px;
+    padding-right: 47px;
+    padding-bottom:50px;
+}
+@media(max-width:906px){
+    .mediabg{
+        flex-direction: column;
+        margin:0px; 
+    }
+    img.mediapicture{
+        width:100%;
+        height: 360px;
+       padding-bottom: 26px;
+       padding-right: 45px;
+       padding-left: 45px;
+       padding-top:0px;
+       margin-top: -38px;
+    
+}
+}
