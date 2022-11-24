@@ -1,3 +1,13 @@
-# SweetCafe
+# SweetCafe - Simple sweet cafe website.
 
-This is simple cafe website frontend. designed using html css and bootstrap.
+###### website built using HTML, CSS, Bootstrap and React.
+
+### Technology Used
+
+- HTML CSS
+- BOOTSTRAP
+- React
+
+### Screenshot
+
+![SweetCafe](sweet-cafe.png "This is a sample image.")
